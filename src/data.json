@@ -1,0 +1,73 @@
+[
+  {"img_id":"1","images":[
+  
+ 
+   {"img":"images/k0.jpg","img_id":"1"},
+   {"img":"images/k1.jpg","img_id":"1"},
+   {"img":"images/k2.jpg","img_id":"1"},
+   {"img":"images/k3.jpg","img_id":"1"},
+   {"img":"images/k4.jpg","img_id":"1"},
+   {"dsc":"Kashmir is a region located in northern India and northeastern Pakistan, with a small part in eastern China. It is known for its breathtaking natural beauty, including picturesque landscapes, pristine lakes, lush valleys, and towering mountains. Here are some key aspects of Kashmir Places to visit in Kashmir: Srinagar,Gulmarg,Pahalgam,Sonmarg,Jamu","img_id":"1"}
+, {"price":"7599","img_id":"1"},
+{"price":"10999","img_id":"1"},
+{"price":"2599","img_id":"1"}
+
+  ]},
+  {"img_id":"2","images":[
+    {"img":"images/l1.jpg","img_id":"2"},
+    {"img":"images/l2.jpg","img_id":"2"},
+    {"img":"images/l0.webp","img_id":"2"},
+    {"img":"images/l3.webp","img_id":"2"},
+    {"img":"images/l4.jpg","img_id":"2"},
+    {"dsc":"Ladakh is often referred to as the Land of High Passes due to its numerous mountain passes, including the world-famous Khardung La. The region boasts dramatic landscapes with rugged mountains, deep valleys, and vast plateaus. It's also home to some of the world's highest motorable roads. Places to visit in Ladakh:  Hemis National Park,Diskit Monastery,Pangong Tso Lake,Shanti Stupa","img_id":"2"}
+, {"price":"6599","img_id":"2"},
+{"price":"10499","img_id":"2"},
+{"price":"20999","img_id":"2"}
+  ]},
+  {"img_id":"3","images":[
+    {"img":"images/r0.jpg","img_id":"3"},
+    {"img":"images/r1.webp","img_id":"3"},
+    {"img":"images/r2.jpg","img_id":"3"},
+    {"img":"images/r3.jpg","img_id":"3"},
+    {"img":"images/r4.jpg","img_id":"3"},
+    {"dsc":"Rajasthan is often referred to as the Land of Kings due to its historical association with princely states and majestic palaces. The state was home to many royal dynasties, each leaving a mark on its architecture and culture,  Places to visit in Rajsthan: Mantar, Hawa Mahal,Lake Pichola,City Palace of Udaipur,Mehrangarh, Nahargarh and Jaisalmer Fort, Ranthambore","img_id":"3"}
+, {"price":"1099","img_id":"3"},
+{"price":"5499","img_id":"3"},
+{"price":"8999","img_id":"3"}
+  ]},{"img_id":"4","images":[
+    {"img":"images/g1.jpg","img_id":"4"},
+    {"img":"images/g0.jpg","img_id":"4"},
+    {"img":"images/g2.jpg","img_id":"4"},
+    {"img":"images/g3.jpg","img_id":"4"},
+    {"img":"images/g4.jpg","img_id":"4"},
+    {"dsc":"Goa is famous for its beautiful beaches that stretch along the Arabian Sea coastline. Some of the most popular ones include Baga Beach, Calangute Beach, Anjuna Beach, and Palolem Beach. These beaches offer opportunities for sunbathing, water sports, and relaxation. Places to visit in Goa: Bom Jesus Basilica, Reis Magos Fort, Aguada Fort,  Cabo de Rama Fort, Chapora Fort","img_id":"3"}
+, {"price":"4599","img_id":"4"},
+{"price":"10499","img_id":"4"},
+{"price":"20999","img_id":"4"}
+  ]},
+  {"img_id":"5","images":[
+    {"img":"images/c01.jpg","img_id":"5"},
+    {"img":"images/c1.jpg","img_id":"5"},
+    {"img":"images/c2.jpg","img_id":"5"},
+    {"img":"images/c3.jpg","img_id":"5"},
+    {"img":"images/c4.jpg","img_id":"5"},
+    {"dsc":"Chandigarh, known for its modern architecture and well-planned layout, offers a variety of tourist attractions. Here are some popular places to visit in Chandigarh. Rock Garden,Rose Garden (Zakir Hussain Rose Garden),Sukhna Lake,Le Corbusier Centre,Capitol Complex,Government Museum and Art Gallery","img_id":"3"},
+    {"price":"1599","img_id":"5"},
+    {"price":"2499","img_id":"5"},
+    {"price":"5999","img_id":"5"}
+
+  ]},
+  {"img_id":"6","images":[
+    {"img":"images/j0.jpg","img_id":"6"},
+    {"img":"images/j1.jpg","img_id":"6"},
+    {"img":"images/j2.jpg","img_id":"6"},
+    {"img":"images/j3.webp","img_id":"6"},
+    {"img":"images/gwl.jpg","img_id":"6"},
+    {"dsc":"Gwalior has a long and storied history, dating back to ancient times. It was ruled by various dynasties, including the Tomars, Mughals, Marathas, and Scindias. The city has witnessed many pivotal moments in Indian history. places to visit in Gwalior: Gwalior Fort, Phool Bagh,Sarafa Bazar,Teli Ka Mandir","img_id":"3"}
+, {"price":"599","img_id":"6"},
+{"price":"1499","img_id":"6"},
+{"price":"2999","img_id":"6"}
+  ]}
+
+
+]
