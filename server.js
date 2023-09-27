@@ -75,6 +75,68 @@ app.get('/liststream',(req,res) =>{
     });
 });
 
+
+// //route for product update
+// app.post('/trandingupdate',(req,res)=>{
+   
+//     let sql ="UPDATE tranding SET numbar ='"+ total+"' WHERE coursc='"+req.body.coursc+"'";
+//     console.log(sql);
+//     let query = conn.query(sql,(err,results)=>{
+//         if(err) throw err;
+//         res.json(results);
+//     });
+
+
+// });
+
+// const numbar = parseFloat(req.body.numbar);
+// const nm = 1;
+// const total = numbar + nm; 
+
+app.post('/trandingupdate', (req, res) => {
+    
+    let selectSql = "SELECT * FROM tranding WHERE coursc='" + req.body.coursc + "'";
+    let selectQuery = conn.query(selectSql, (selectErr, selectResults) => {
+      if (selectErr) throw selectErr;
+  
+     
+      if (selectResults.length > 0) {
+        console.log(selectResults)
+        const currentNumbar = parseFloat(selectResults[0].numbar);
+        // const numbar = parseFloat(req.body.numbar);
+        const nm = 1;
+        
+
+        const total = currentNumbar + nm;
+  console.log(total)
+   
+        let updateSql = "UPDATE tranding SET numbar='" + total + "' WHERE coursc='" + req.body.coursc + "'";
+        let updateQuery = conn.query(updateSql, (updateErr, updateResults) => {
+          if (updateErr) throw updateErr;
+  
+          res.json("5");
+        });
+      } else {
+        res.json("5");
+        // res.status(404).json("4");
+      }
+    });
+  });
+  
+  
+
+//route for list all location
+app.get('/listsugstion',(req,res) =>{
+    let sql ="SELECT * FROM  tranding;";
+    let query =conn.query (sql,(err,results)=>{
+        console.log(results)
+
+           if(err)throw err;
+           res.json(results);
+    });
+});
+
+
 app.get('/detailsall/:id',function(req,res){
     const id=req.params.id;
     console.log(id);
@@ -85,6 +147,11 @@ app.get('/detailsall/:id',function(req,res){
         res.json(results);
         });
 });
+
+// select tranding 
+
+
+
 // search api
 app.get('/searching/:key',function(req,res) {
     
